@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --backround-color:var(#403D39);
+  --H-color:var(#EB5E28);
+  --font-color:var(#CCC5B9);
+  background-color: #403D39;
+  
+}
+
+:root {
+  font-family: 'Indie Flower', cursive, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 10px;
+  
+}
+
+/* font-size extra 10px damit ich besser mit rem, em arbeite, mehrere fallback schriftarten hinzugefügt */
+.logo-name {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logo-name, h1 {
+  font-family: 'Lilita One', cursive, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #EB5E28;
+}
+
+.nav-head {
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 5%;
+  background-color: #403D39;
+  position: fixed;
+  z-index: 2;
+  box-shadow: 3px 3px 3px  black;
+}
+
+.navlink, li {
+  display: inline-block;
+  padding: 0 20px;
+  margin-left: 3rem;
+}
+
+.navlink, a {
+  font-size: 2rem;
+  font-family: 'Lilita One', cursive, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-decoration: none;
+  list-style: none;
+  cursor: pointer;
+  color: #CCC5B9;
+}
+
+
+
+span {
+  color: #EB5E28;
+  font-size: 2.5rem;
+}
+
+
+.logo {
+  width: 32px;
+  height: 32px;
+}
+
+.icons, img {
+  width: 2rem;
+  margin: 1rem;
+}
+
+.social {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 1rem;
+}
+
+/* Hero section */
+
+.hero-section {
+  display: flex;
+  width: 100%;
+  height: 50vh;
+  border: 3px #EB5E28 groove;
+  background-image: url(../image/5.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* main-txt */
+.main-txt {
+  width: 100vw;
+  height: 40rem;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  text-align: left;
+}
+
+/* hover-nav */
+
+.navlink:hover {
+  color: #EB5E28;
+  transition: 0.4s;
+}
+
+.navlink:hover span {
+  color: #CCC5B9;
+  transition: 0.4s;
+}
+
+
+.main-txt, h2 {
+  font-family: 'Lilita One', cursive, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 5rem;
+  margin: 1rem;
+  text-decoration: underline;
+  -webkit-text-stroke: 0.5px black;
+  color: #EB5E28;
+}
+
+.main-txt, p {
+  margin: 1rem;
+  padding: 1rem;
+  font-family: 'Indie Flower', cursive, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #FFFCF2;
+  font-size: 2.5rem;
+  text-decoration: none;  
+}
+.text-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-img img {
+  margin-right: 5rem;
+  width: 40%;
+  height: 50vh;
+  border: #EB5E28 3px groove;
+  border-radius: 1.5rem;
+  box-shadow: 3px 3px 3px black;
+}
+
+.second-txt-img {
+  display: flex;
+  width: 100vw;
+  height: 40rem;
+  margin: 3rem;
+  justify-content: flex-end;
+  flex-direction: column;
+  text-align: right;
+}
+
+.second-txt h2 {
+  font-family: 'Lilita One', cursive, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 5rem;
+  margin: 2rem;
+  margin-top:18rem;
+  text-decoration: underline;
+  -webkit-text-stroke: 0.5px black;
+  color: #EB5E28;
+}
